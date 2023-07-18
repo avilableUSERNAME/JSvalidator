@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../lib/temp_functions/checked.js"></script>
+</head>
+<body>
+    
+    <form name="myForm" action="ajax_info.txt" method="get">
+        this must be cheked <input type="checkbox" name="checkbox-test">
+        <br>
+        this must be cheked but the message is mine<input type="checkbox" name="checkbox-test-2">
+        <br>
+        this must be cheked but the error is a function<input type="checkbox" name="checkbox-test-3">
+        <span id="myErr" style="display: none; color: blue;">my error</span>
+
+        <br>
+        <input type="submit" value="send">
+    </form>
+
+    <div id="demo"></div>
+
+    <script src="../lib/main.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
